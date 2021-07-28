@@ -6,31 +6,34 @@
 	<link rel="icon" href="/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet" href="./css/atomic.css">
-	<link rel="stylesheet" href="./css/global.css">
+	<link rel="stylesheet" href="/css/atomic.css">
+	<link rel="stylesheet" href="/css/global.css">
 
-	<script src="./js/molecular.js"></script>
+	<script src="/js/molecular.js"></script>
 
 	
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-6ea9dc38.js">
-		<link rel="modulepreload" href="/./_app/chunks/vendor-35efa144.js">
+		<link rel="modulepreload" href="/./_app/start-5c74ff55.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-026af175.js">
 		<link rel="modulepreload" href="/./_app/chunks/paths-45dac81d.js">
-		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-46aaa497.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-3a9e8c7e.js">
+		<link rel="modulepreload" href="/./_app/pages/components/nav.svelte-cb5862d8.js">
 		<link rel="modulepreload" href="/./_app/chunks/routes-81378ac5.js">
-		<link rel="modulepreload" href="/./_app/pages/projects.svelte-98b3c260.js">
-		<link rel="modulepreload" href="/./_app/chunks/Containr-f10e31d1.js">
-		<link rel="modulepreload" href="/./_app/chunks/image-92533645.js">
-		<link rel="modulepreload" href="/./_app/chunks/canvas-f96a14fd.js">
+		<link rel="modulepreload" href="/./_app/pages/components/footer.svelte-3427d1e0.js">
+		<link rel="modulepreload" href="/./_app/pages/projects.svelte-9a8a58ce.js">
+		<link rel="modulepreload" href="/./_app/chunks/canvas-af21ef1a.js">
+		<link rel="modulepreload" href="/./_app/chunks/image-7ebd7d9b.js">
+		<link rel="modulepreload" href="/./_app/chunks/slider.svelte_svelte&type=style&lang-b4e274b1.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
-		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-750b9541.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/components/nav.svelte-f785b4d1.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/components/footer.svelte-180dc0b2.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/projects.svelte-bf890209.css">
-		<link rel="stylesheet" href="/./_app/assets/image-d2865bd0.css">
+		<link rel="stylesheet" href="/./_app/assets/slider.svelte_svelte&type=style&lang-e47edd14.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-6ea9dc38.js";
+			import { start } from "/./_app/start-5c74ff55.js";
 			start({
 				target: document.querySelector("main"),
 				paths: {"base":"","assets":"/."},
@@ -43,8 +46,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/./_app/pages/__layout.svelte-46aaa497.js"),
-						import("/./_app/pages/projects.svelte-98b3c260.js")
+						import("/./_app/pages/__layout.svelte-3a9e8c7e.js"),
+						import("/./_app/pages/projects.svelte-9a8a58ce.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -74,7 +77,8 @@
       </a></div>
 </details>
 
-<main><celestia-page><div class="space__comet-container" style="position:fixed;"><div class="space__comet svelte-1q6673b"></div></div>
+<main><title>Projects | SEDS Celestia</title>
+<celestia-page><div class="space__comet-container" style="position:fixed;"><div class="space__comet svelte-1q6673b"></div></div>
   <h1 class="tx-c po-stx p-10 z-4 w-50 m-h-auto" style="top:0;" bg="000-nil">Projects
   </h1>
   <section class="adaptive"><div id="art" size="max" class="m-h-auto svelte-n1g29d"><canvas class="rx-max" bg="0008"></canvas></div></section>
@@ -153,43 +157,56 @@
     <img size="ic" style="object-fit: contain;" src="/assets/icons/tasks.svg" alt=""></div>
   <details class="p-10 tx-l" bg="66e-37f" slot="body"><summary style="font-size:20px"><i>(Click to Open)</i></summary>
         <main><input type="text" bg="nil" class="p-10 m-10" placeholder="Search" ht="30px">
-          <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+          
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Lidar (2019)</div>
                 <div class="p-5">An attempt to create our inhouce lidar</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Tesla Coil (2017)</div>
                 <div class="p-5">The name speaks for itself</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Microbial Fuel Cell (2019)</div>
                 <div class="p-5">Utilizing bacteria in order to catalize reactions and generate current</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Pyroboard (2019)</div>
                 <div class="p-5">Vibrating a burning gases to tunes from a speaker</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Spectrometer (2019)</div>
                 <div class="p-5">Design a spectrometer to determine the chemical composition of light sources or illuminated objects</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Physarum (2019)</div>
                 <div class="p-5">Solve basic computation problems using Physarum slime mold</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Sonoluminescence (2018)</div>
                 <div class="p-5">Create a sonoluminescent bubble and take temperature and spectral measurements of the light emitted</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Barn Door Tracker (2017)</div>
                 <div class="p-5">Take exposure images of night’s sky using automated DSLR mount</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">N-body simulation (2017)</div>
                 <div class="p-5">It aimed to simulate the gravitational interaction of a swarm of bodies and study the clustering and dynamics of the structures formed</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Schlieren Photography (2018)</div>
                 <div class="p-5">To Visualize pressure, temperature and composition gradients in fluid flow and observe the complex fractal like structures of turbulence</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Reproduction of particle interference with walking droplets (2018)</div>
                 <div class="p-5">It aimed to recreate a quantum phenomena like interference with walking droplets on a vibrating fluid bed</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Galaxy Classifier Neural Net (2018)</div>
                 <div class="p-5">It aimed to build and train a convolutional neural network that will classify galaxies using their images</div></div>
-            </element><element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
+            </element>
+            <element class="flex m-10 p-10"><img class="rx-50 p-5" bg="000" size="ic-md" src="./assets/logo-sq.png" alt="">
               <div class="m-5 f-wt3"><div class="f-wt7 p-5">Michelson Interferometers (2018)</div>
                 <div class="p-5">Build a Michelson interferometer without any expensive equipment and to explore the applications of interferometry in seismology and acoustics</div></div>
             </element></main></details></article>
@@ -215,7 +232,12 @@
 </celestia-page></main>
 
 <celestia-footer class="footer jtx-ct flex p-20 svelte-ffuxxi"><div><h5>Sitemap</h5>
-        <a class="caps svelte-ffuxxi" href="/">home</a> <br><a class="caps svelte-ffuxxi" href="/team">team</a> <br><a class="caps svelte-ffuxxi" href="/observations">observations</a> <br><a class="caps svelte-ffuxxi" href="/events">events</a> <br><a class="caps svelte-ffuxxi" href="/projects">projects</a> <br></div>
+        <a class="caps svelte-ffuxxi" href="/">home</a>
+            <br><a class="caps svelte-ffuxxi" href="/team">team</a>
+            <br><a class="caps svelte-ffuxxi" href="/observations">observations</a>
+            <br><a class="caps svelte-ffuxxi" href="/events">events</a>
+            <br><a class="caps svelte-ffuxxi" href="/projects">projects</a>
+            <br></div>
     <div class="flex"><hr></div>
     <div><h5>Our Accounts</h5>
         <a target="_blank" href="https://instagr.am/sedscelestia/">Instagram</a>
